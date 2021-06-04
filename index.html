@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <h1 id="level-title">Press A Key to Start</h1>
+  <div class="container">
+    <div class="row">
+
+      <div type="button" id="green" class="btn green">
+
+      </div>
+
+      <div type="button" id="red" class="btn red">
+
+      </div>
+    </div>
+
+    <div class="row">
+
+      <div type="button" id="yellow" class="btn yellow">
+
+      </div>
+      <div type="button" id="blue" class="btn blue">
+
+      </div>
+
+    </div>
+    <div class="rules">
+      <h2>Game rules</h2>
+      <ol>
+        <li>At the start, Simon's game will randomly give you a signal ( one color will pop up).</li>
+        <li>You have to repeat the signal by pressing the same color.</li>
+        <li>Simon will duplicate the first signal and add a random one.</li>
+        <li>You need to repeat these two signals by pressing the same color lenses, in the order.</li>
+        <li>Simon will duplicate these first two signals and add one.</li>
+        <li>You need to repeat these three signals in the order.</li>
+        <li>Simon will repeat all three signals and add one.</li>
+        <li>Continue playing as long as you can repeat the sequence.</li>
+      </ol>
+    </div>
+
+  </div>
+  <footer>
+    <a href="https://github.com/jomjamkusuma/simon-game">jomjamkusuma.io</a>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="game.js"></script>
+</body>
+
+
+</html>
